@@ -36,7 +36,7 @@ const Index = () => {
             <button onClick={() => scrollToSection("contact")} className="text-sm font-medium hover:text-muted-foreground transition-colors">
               Contact
             </button>
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium">
+            <Button onClick={() => scrollToSection("contact")} className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium">
               Request Demo
             </Button>
           </div>
@@ -55,10 +55,10 @@ const Index = () => {
               Create focused workspaces anywhere — cafés, offices, coworking spaces, and public areas.
             </p>
             <div className="flex gap-4">
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 py-6 text-base">
+              <Button onClick={() => scrollToSection("contact")} className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 py-6 text-base">
                 Request Demo
               </Button>
-              <Button variant="outline" className="border-2 border-foreground hover:bg-foreground hover:text-background font-medium px-8 py-6 text-base">
+              <Button onClick={() => scrollToSection("models")} variant="outline" className="border-2 border-foreground hover:bg-foreground hover:text-background font-medium px-8 py-6 text-base">
                 View Models
               </Button>
             </div>
@@ -232,7 +232,7 @@ const Index = () => {
           <div className="max-w-[1400px] mx-auto space-y-6 text-background">
             <h2 className="font-bold text-background">ZonePod</h2>
             <p className="text-2xl">Private productivity pods for cafés, offices, and public spaces.</p>
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 py-6 text-base">
+            <Button onClick={() => scrollToSection("contact")} className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 py-6 text-base">
               Get Pricing
             </Button>
           </div>
