@@ -44,28 +44,30 @@ const Index = () => {
       </nav>
 
       {/* Hero Section - Swiss Editorial Layout */}
-      <section className="section-swiss mt-16 min-h-screen flex items-center">
-        <div className="max-w-[1400px] mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <h1 className="font-bold leading-none">ZonePod</h1>
-              <h2 className="text-xl md:text-2xl font-normal">Private. Sound-Controlled. Productivity Pods.</h2>
+      <section className="relative mt-16 min-h-screen flex items-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img src={heroPod} alt="ZonePod productivity pod" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-background/60" />
+        </div>
+        <div className="relative z-10 w-full section-swiss">
+          <div className="max-w-[1400px] mx-auto flex justify-end">
+            <div className="max-w-xl space-y-8 bg-background/95 backdrop-blur-sm p-12 border-l-4 border-primary">
+              <div className="space-y-4">
+                <h1 className="font-bold leading-none">ZonePod</h1>
+                <h2 className="text-xl md:text-2xl font-normal">Private. Sound-Controlled. Productivity Pods.</h2>
+              </div>
+              <p className="text-lg leading-relaxed">
+                Create focused workspaces anywhere — cafés, offices, coworking spaces, and public areas.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button onClick={() => scrollToSection("contact")} className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 py-6 text-base">
+                  Request Demo
+                </Button>
+                <Button onClick={() => scrollToSection("models")} variant="outline" className="border-2 border-foreground hover:bg-foreground hover:text-background font-medium px-8 py-6 text-base">
+                  View Models
+                </Button>
+              </div>
             </div>
-            <p className="text-lg leading-relaxed max-w-lg">
-              Create focused workspaces anywhere — cafés, offices, coworking spaces, and public areas.
-            </p>
-            <div className="flex gap-4">
-              <Button onClick={() => scrollToSection("contact")} className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 py-6 text-base">
-                Request Demo
-              </Button>
-              <Button onClick={() => scrollToSection("models")} variant="outline" className="border-2 border-foreground hover:bg-foreground hover:text-background font-medium px-8 py-6 text-base">
-                View Models
-              </Button>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="absolute top-0 right-0 w-24 h-24 bg-primary" />
-            <img src={heroPod} alt="ZonePod productivity pod" className="w-full h-auto" />
           </div>
         </div>
       </section>
