@@ -20,7 +20,7 @@ const Index = () => {
         <div className="max-w-[1400px] mx-auto px-8 py-4 flex items-center justify-between">
           <div className="space-y-0">
             <div className="text-2xl font-bold tracking-tight leading-none">ZenPod</div>
-            <div className="text-xs tracking-wide text-muted-foreground">by Zone by Stacia</div>
+            <div className="text-xs tracking-wide text-muted-foreground">by Zone a venture by Stacia</div>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <button onClick={() => scrollToSection("cafe")} className="text-sm font-medium hover:text-muted-foreground transition-colors">
@@ -55,7 +55,7 @@ const Index = () => {
             <div className="max-w-xl space-y-8 pr-8">
               <div className="space-y-4">
                 <h1 className="font-bold leading-none text-white">ZenPod</h1>
-                <p className="text-xs tracking-widest text-white/90 uppercase">by Zone by Stacia</p>
+                <p className="text-xs tracking-widest text-white/90 uppercase">BY ZONE A VENTURE BY STACIA</p>
                 <h2 className="text-xl md:text-2xl font-normal text-white">Private. Sound-Controlled. Productivity Pods.</h2>
               </div>
               <p className="text-lg leading-relaxed text-white/90">
@@ -113,28 +113,28 @@ const Index = () => {
             </p>
             <ul className="space-y-4 pt-4">
               <li className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-primary mt-2 flex-shrink-0 rounded-full" />
+                <div className="w-1.5 h-1.5 mt-2 flex-shrink-0 rounded-full bg-green-900" />
                 <div>
                   <strong className="font-bold text-sm">Instant private meeting rooms</strong>
                   <p className="text-sm text-muted-foreground">Deploy functional spaces in minutes.</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-primary mt-2 flex-shrink-0 rounded-full" />
+                <div className="w-1.5 h-1.5 mt-2 flex-shrink-0 rounded-full bg-green-900" />
                 <div>
                   <strong className="font-bold text-sm">Supports hybrid/remote teams</strong>
                   <p className="text-sm text-muted-foreground">Perfect for video calls and focus time.</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-primary mt-2 flex-shrink-0 rounded-full" />
+                <div className="w-1.5 h-1.5 mt-2 flex-shrink-0 rounded-full bg-green-900" />
                 <div>
                   <strong className="font-bold text-sm">Acoustic privacy</strong>
                   <p className="text-sm text-muted-foreground">Soundproof design eliminates distractions.</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-primary mt-2 flex-shrink-0 rounded-full" />
+                <div className="w-1.5 h-1.5 mt-2 flex-shrink-0 rounded-full bg-green-900" />
                 <div>
                   <strong className="font-bold text-sm">Movable, modular infrastructure</strong>
                   <p className="text-sm text-muted-foreground">Reconfigure your space as needs change.</p>
@@ -235,8 +235,8 @@ const Index = () => {
         <div className="relative z-10 section-swiss w-full bg-gradient-to-t from-black/80 to-transparent">
           <div className="max-w-[1400px] mx-auto space-y-6">
             <h2 className="font-bold text-white text-5xl md:text-6xl">ZenPod</h2>
-            <p className="text-xs tracking-widest text-white/80 uppercase">by Zone by Stacia</p>
-            <p className="text-xl text-white/90">Private productivity pods for cafés, offices, and public spaces.</p>
+            <p className="text-xs tracking-widest text-white/80 uppercase">BY ZONE A VENTURE BY STACIA</p>
+            <p className="text-xl text-white/90">Private productivity pods for all spaces.</p>
             <Button onClick={() => scrollToSection("contact")} className="bg-primary text-black hover:bg-primary/90 font-medium px-8 py-6 text-base">
               Get Pricing
             </Button>
@@ -278,9 +278,7 @@ const Index = () => {
             </ul>
           </div>
         </div>
-        <div className="max-w-[1400px] mx-auto mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © ZenPod by Zone by Stacia — All rights reserved.
-        </div>
+        <div className="max-w-[1400px] mx-auto mt-12 pt-8 border-t border-border text-center text-sm text-muted-foreground">© ZenPod by Zone a venture by Stacia — All rights reserved.</div>
       </footer>
     </div>;
 };
