@@ -65,7 +65,7 @@ const Index = () => {
                 <Button onClick={() => scrollToSection("contact")} className="bg-primary text-black hover:bg-primary/90 font-medium px-8 py-6 text-base">
                   Request Demo
                 </Button>
-                <Button onClick={() => scrollToSection("models")} variant="outline" className="border-2 border-black bg-black text-white hover:bg-white font-medium px-8 py-6 text-base shadow rounded opacity-50">
+                <Button onClick={() => scrollToSection("models")} variant="outline" className="border-2 border-black bg-black text-white hover:bg-white font-medium px-8 py-6 text-base shadow rounded opacity-100">
                   View Models
                 </Button>
               </div>
