@@ -7,15 +7,14 @@ import pod1Person from "@/assets/pod-1person.jpg";
 import pod2Person from "@/assets/pod-2person.jpg";
 import podMeeting from "@/assets/pod-meeting.jpg";
 import showcasePods from "@/assets/showcase-pods.jpg";
-
 const Index = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Swiss Navigation Bar */}
       <nav className="fixed top-0 w-full bg-background border-b border-border z-50">
         <div className="max-w-[1400px] mx-auto px-8 py-4 flex items-center justify-between">
@@ -49,7 +48,7 @@ const Index = () => {
       {/* Hero Section - Swiss Editorial Layout */}
       <section className="relative mt-16 min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroPod} alt="ZenPod productivity pod" className="w-full h-full object-cover" />
+          <img alt="ZenPod productivity pod" className="w-full h-full object-cover" src="/lovable-uploads/7e2bca85-082b-4661-a34c-3b717392c027.png" />
         </div>
         <div className="relative z-10 w-full section-swiss">
           <div className="max-w-[1400px] mx-auto flex justify-end">
@@ -283,8 +282,6 @@ const Index = () => {
           © ZenPod by Zone by Stacia — All rights reserved.
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
