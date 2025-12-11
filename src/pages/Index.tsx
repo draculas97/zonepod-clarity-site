@@ -254,19 +254,19 @@ const Index = () => {
             </p>
           </div>
           <div>
-            <h4 className="font-bold mb-4">Café Solutions</h4>
+            
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Revenue Enhancement</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Customer Experience</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Case Studies</a></li>
+              
+              
+              
             </ul>
           </div>
           <div>
-            <h4 className="font-bold mb-4">Office Solutions</h4>
+            
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Meeting Rooms</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Focus Spaces</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Hybrid Work</a></li>
+              
+              
+              
             </ul>
           </div>
           <div>
@@ -274,7 +274,7 @@ const Index = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>hello@zenpod.com</li>
               <li>+1 (555) 123-4567</li>
-              <li>San Francisco, CA</li>
+              <li>Chennai, India</li>
             </ul>
           </div>
         </div>
